@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>targil 0 - DCS 2018</title>
+    <META charset="UTF-8">
+    <link rel="stylesheet" href="includes/style.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="includes/script.js"></script>
+
+  </head>
+  <body>
+    <div id="wrapper" >
+        <h1>targil 0 - Distributed Cloud (RESTful) Services</h1> 
+        <section class="form1">
+        
+          <form action="" method="">
+            <h3>calculate values on GET</h3>
+            <section>
+              <p><label>num1:</label>
+              <input type="number" name="num1" id="numA" placeholder="num1.."></p>
+              <p><label>num2:</label>
+              <input type="number" name="num2" id="numB" placeholder="num2.."></p>
+              <p><label>num3:</label>
+              <input type="number" name="num3" id="numC" placeholder="num3.."></p>
+              <h5><span>* </span>func:</h5>
+              <label>sum <input type="radio" name="func" value="sum" required></label> 
+              <label>avg <input type="radio" name="func" value="avg"></label>
+              <label>mult <input type="radio" name="func" value="mult"></label><br>
+              <input type="button" onclick="sendGet()" id="submit" value="Submit"></button>            
+            </section>
+          </form>
+          <section class="result1"></section>
+        </section>  
+        <section class="form2">
+        
+          <form action="" method="">
+            <h3>calculate values on POST</h3>
+            <section>
+              <p><label>num1:</label>
+              <input type="number" name="num1" id="numD" placeholder="num1.."></p>
+              <p><label>num2:</label>
+              <input type="number" name="num2" id="numE" placeholder="num2.."></p>
+              <p><label>num3:</label>
+              <input type="number" name="num3" id="numF" placeholder="num3.."></p>
+              <h5><span>* </span>func:</h5>
+              <label>sum <input type="radio" name="func1" value="sum" required></label> 
+              <label>avg <input type="radio" name="func1" value="avg"></label>
+              <label>mult <input type="radio" name="func1" value="mult"></label><br>
+              <input type="button" onclick="sendPost()" id="submit" value="Submit"></button>            
+            </section>
+          </form>
+          <section class="result2"></section>
+        </section>  
+         <section class="form3">
+        
+          <form action="" method="">
+            <h3>calculate values on PUT</h3>
+            <section>
+              <p><label>num1:</label>
+              <input type="number" name="num1" id="numG" placeholder="num1.."></p>
+              <p><label>num2:</label>
+              <input type="number" name="num2" id="numH" placeholder="num2.."></p>
+              <p><label>num3:</label>
+              <input type="number" name="num3" id="numI" placeholder="num3.."></p>
+              <h5><span>* </span>func:</h5>
+              <label>sum <input type="radio" name="func2" value="sum" required></label> 
+              <label>avg <input type="radio" name="func2" value="avg"></label>
+              <label>mult <input type="radio" name="func2" value="mult"></label><br>
+              <input type="button" onclick="sendPut()" id="submit" value="Submit"></button>            
+            </section>
+          </form>
+          <section class="result3"></section>
+        </section> 
+      </div>           
+  </body>
+</html>

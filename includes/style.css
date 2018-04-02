@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+footer, header, nav, main, article, section, aside {
+  display: block;
+}
+body  {
+  background: #b3b3b3;
+}
+#wrapper  {
+  margin: 0 auto;
+  background: #ffffff;
+  max-width: 1000px;
+  min-height: 800px;
+  font-family: "Tahoma", Times, serif;
+  padding-left: 40px;
+}
+h1  {
+  margin: 5px;
+  font-size: 150%;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+p {
+  margin: 5px;
+}
+span  {
+  color: red;
+}
+section
+{
+  width : 250px ;
+  display : inline-block ;
+  margin: 20px ;
+  vertical-align: top;
+}
+h3  {
+  margin-top: 5px;
+}
+label {
+  width : 150px ; 
+  display : block ; 
+  margin-right : 5px;
+}
+p input {       
+  width : 200px;
+  height : 22px;
+  border-radius : 5px ; 
+  border: 1px solid black;     
+}
+input:focus {
+  box-shadow : 5px 5px 10px gray;
+}
+textarea  {
+  width : 95%;
+  height: 50px ;  
+  border-radius : 5px ;  
+  border :1px solid black;
+}
+textarea:focus  {
+  box-shadow : 5px 5px 10px gray;
+}
+#submit {
+  border-radius : 5px ;  
+  border :2px solid blue; 
+  box-shadow : 5px 5px 10px gray;
+
+  height: 50px;
+  font-weight: bold;
+  font-size: 200%;
+}
